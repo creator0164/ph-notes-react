@@ -3,6 +3,7 @@
   "proxy": "https://notes-ko.herokuapp.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ph-notes.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
