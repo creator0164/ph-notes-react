@@ -12,7 +12,7 @@ function NotePage({ match, history }) {
     let getNote = async () => {
         if (noteId === 'new') return
 
-        let response = await fetch(`/api/notes/${noteId}/`)
+        let response = await fetch(`ph-notes.herokuapp.com/api/notes/${noteId}/`)
         let data = await response.json()
         setNote(data)
     }
@@ -30,7 +30,7 @@ function NotePage({ match, history }) {
     }
 
     let createNote = async () => {
-        fetch(`/api/notes/`, {
+        fetch(`ph-notes.herokuapp.com/api/notes/`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -40,7 +40,7 @@ function NotePage({ match, history }) {
     }
 
     let deleteNote = async () => {
-        fetch(`/api/notes/${noteId}/`, {
+        fetch(`ph-notes.herokuapp.com/api/notes/${noteId}/`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
