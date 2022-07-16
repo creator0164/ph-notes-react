@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "proxy": "https://notes-ko.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,8 +10,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.3",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "http-proxy-middleware": "^2.0.6"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "dev": "webpack -d --watch",
