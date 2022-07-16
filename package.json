@@ -15,8 +15,6 @@
   },
   "scripts": {
     "dev": "webpack -d --watch",
-    "server": "webpack-dev-server -d --watch --history-api-fallback --host $IP --port $PORT",
-    "build": "webpack --config webpack.conf.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
